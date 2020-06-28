@@ -66,6 +66,7 @@ export default {
 				if(result.meta.status != 200) return this.$message.error(result.meta.msg)
 				// 将token存入到浏览器缓存中
 				window.sessionStorage.setItem('token',result.data.token)
+				window.sessionStorage.setItem('username',result.data.username)
 				// 跳转到主页面布局
 				 this.$router.push('/layout')
 				this.$message.success(result.meta.msg)
