@@ -6,6 +6,7 @@ import axios from 'axios'
 import 'element-ui/lib/theme-chalk/index.css'; //element-ui样式
 import './plugins/element-ui.js' //引入element-ui组件
 import './assets/fonts/iconfont.css' //引入字体图标
+import './assets/styles/common.css' //引入公共样式
 
 Vue.config.productionTip = false
 // 将axios挂载到vue原型上

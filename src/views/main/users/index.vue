@@ -10,7 +10,7 @@
       </el-breadcrumb>
     </div>
     <!-- 卡片列表 -->
-    <div class="users-card">
+    <div class="users-card card">
       <el-card class="box-card">
         <div slot="header" class="clearfix">
           <el-row type="flex" justify="space-between">
@@ -312,20 +312,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// 卡片列表
-.users-card {
-  margin-top: 20px;
-  // 搜索盒子
-  .search-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .el-button {
-      margin-left: 5px;
-    }
-  }
-  .table {
-    margin-bottom: 20px;
+// 搜索盒子
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .el-button {
+    margin-left: 5px;
   }
 }
+.table {
+  margin-bottom: 20px;
+}
+
 </style>

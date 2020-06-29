@@ -33,6 +33,11 @@ const routes = [
         path: '/roles',
         name: 'Roles',
         component: () => import('../views/main/roles/roles.vue')
+      },
+      { //权限列表
+        path: '/rights',
+        name: 'Rights',
+        component: () => import('../views/main/roles/rights.vue')
       }
     ]
   }
